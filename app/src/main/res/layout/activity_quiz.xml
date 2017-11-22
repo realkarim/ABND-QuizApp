@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realkarim.apps.quizapp.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/CommonTextView"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Football Quiz" />
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="Fifa world cup 2018 will be in Russia" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="Zidane is the coach of Real Madrid" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="Real Madrid won the champions league 2016 and 2017!" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="One of following teams plays in spanish liga" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC Milan"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Real Madrid" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liverpool" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PSG" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="What is your feedback on this quiz?" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+    </LinearLayout>
+
+</ScrollView>
